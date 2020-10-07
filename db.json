@@ -1,37 +1,44 @@
-[
-	{
-		"kind": "current",
-		"title": "Current Account",
-		"number": "NL25 TRIO 0253 8443 20",
+{
+  "current": [
+    {
+      "id": 1,
+      "title": "Current Account",
+      "number": "NL25 TRIO 0253 8443 20",
 		"balance": 1000,
 		"currency": "GBP"
-	},
-	{
-		"kind": "current",
-		"title": "Joint Account",
+    },
+    {
+      "id": 2,
+     "title": "Joint Account",
 		"number": "NL25 TRIO 0269 8445 60",
 		"balance": 1500.20,
 		"currency": "GBP"
-	},
-	{
-		"kind": "savings",
-		"title": "Savings Account",
+    }
+  ],
+  "savings": [
+    {
+      "id": 1,
+      "title": "Savings Account",
 		"number": "NL81 TRIO 0212  4710 66",
 		"balance": 0,
 		"currency": "GBP"
-	},
-	{
-		"kind": "term",
-		"title": "Term Deposit",
+    }
+  ],
+  "term": [
+  	{
+  	"id": 1,
+    "title": "Term Deposit",
 		"number": "NL81 TRIO 0212 4710 66",
 		"balance": 13210.47,
 		"currency": "GBP"
-	},
-	{
-		"kind": "loan",
-		"title": "Our home loan",
+	}
+  ],
+    "loan": {
+    "id": 1,
+    		"title": "Our home loan",
 		"number": "NL25 TRIO 0253 8443 20",
 		"balance": 150000,
 		"currency": "GBP"
-	}
-]
+  }
+
+}
