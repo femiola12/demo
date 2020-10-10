@@ -6,35 +6,86 @@
 		"title": "Current Account",
 		"number": "NL25 TRIO 0253 8443 20",
 		"balance": 1000,
-		"currency": "GBP"
+		"currency": "GBP",
+		"transaction": {
+
+			"name" : "Phile White",
+			"type" : "Payment",
+			"method" : " Money Booker ",
+			"date": "24/07/2018",
+			"status" : "Approved",
+			"Amount" : 20
+
+
+		}
+
 	},
 	{
 		"kind": "current",
 		"title": "Joint Account",
 		"number": "NL25 TRIO 0269 8445 60",
 		"balance": 1500.20,
-		"currency": "GBP"
+		"currency": "GBP",
+		"transaction": {
+
+			"name" : "Mark Lee",
+			"type" : "Payment",
+			"method" : " Credit Card ",
+			"date": "01/07/2017",
+			"status" : "Approved",
+			"Amount" : 500
+
+
+		}
 	},
 	{
 		"kind": "savings",
 		"title": "Savings Account",
 		"number": "NL81 TRIO 0212  4710 66",
 		"balance": 0,
-		"currency": "GBP"
+		"currency": "GBP",
+		"transaction": {
+
+			"name" : "Tom Brown",
+			"type" : "Payment",
+			"method" : " Credit Card ",
+			"date": "17/05/2019",
+			"status" : "Canceled",
+			"Amount" : 0
+		}
+
 	},
 	{
 		"kind": "term",
 		"title": "Term Deposit",
 		"number": "NL81 TRIO 0212 4710 66",
 		"balance": 13210.47,
-		"currency": "GBP"
+		"currency": "GBP",
+		"transaction": {
+
+			"name" : "Good Green",
+			"type" : "Withdrawal",
+			"method" : " Credit Card ",
+			"date": "14/10/2007",
+			"status" : "Approved",
+			"Amount" : 900
+		}
 	},
 	{
 		"kind": "loan",
 		"title": "Our home loan",
 		"number": "NL25 TRIO 0253 8443 20",
 		"balance": 150000,
-		"currency": "GBP"
+		"currency": "GBP",
+		"transaction": {
+
+			"name" : "Anna Love",
+			"type" : "Deposit",
+			"method" : " Credit Card ",
+			"date": "22/07/2010",
+			"status" : "Pending",
+			"Amount" : 5000
+		}
 	}
 ]
 }
